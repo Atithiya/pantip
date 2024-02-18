@@ -115,7 +115,9 @@ export function Topic() {
     <div className="p-5 container bg-slate-100 text-lg lg:text-base">
       {/* Realtime Topics */}
       <div className="mb-5">
-        <h3 className="text-orange-500 font-semibold">Pantip Realtime</h3>
+        <h3 className="text-orange-500 font-semibold lg:text-xl">
+          Pantip Realtime
+        </h3>
         <p className="text-slate-800">
           กระทู้ที่มีคนเปิดอ่านมากในขณะนี้ อัปเดตทุกนาที
         </p>

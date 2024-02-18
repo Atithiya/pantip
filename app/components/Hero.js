@@ -34,7 +34,7 @@ export function Hero() {
     >
       <div className="border border-solid border-zinc-300 rounded-lg ">
         <div className="text-white bg-indigo-950 ps-5 p-2 rounded-t-lg">
-          <p className="font-semibold">เลือกห้อง</p>
+          <p className="lg:text-xl">เลือกห้อง</p>
         </div>
         {/* box */}
         <div className="p-5 rounded-b-lg grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-slate-800">
