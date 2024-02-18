@@ -1,5 +1,6 @@
 export function Hightlight() {
   return (
+    // Hightlight section is developing for mobile device
     <div className="p-5 bg-slate-100 text-lg lg:text-base container hidden lg:block">
       <div className="mb-5">
         <h3 className="text-orange-500 font-semibold">Hightlight</h3>

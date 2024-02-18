@@ -4,7 +4,7 @@ const Logo = "https://ptcdn.info/mobile/logo-mobile-pantip-white.png";
 
 export function Navbar() {
   return (
-    <nav className="fixed top-0 w-full border-b border-solid border-zinc-700 z-10 container">
+    <nav className="fixed top-0 w-full border-b border-solid border-zinc-700 z-10 container text-white ">
       <div className="navbar p-5 bg-indigo-950  ">
         <div className="">
           {/* Desktop logo */}
@@ -18,10 +18,10 @@ export function Navbar() {
         </div>
         <div className="flex justify-between gap-2 lg:mx-72 w-full">
           {/* Search Input */}
-          <label className="input input-bordered flex items-center gap-2 bg-indigo-950 ">
+          <label className="input input-bordered  flex items-center gap-2 bg-slate-700  ">
             <input
               type="text"
-              className="grow w-full lg:w-96  "
+              className="grow w-full lg:w-96 placeholder-white"
               placeholder="ค้นหาบน Pantip"
             />
             <svg
@@ -38,10 +38,10 @@ export function Navbar() {
             </svg>
           </label>
           {/* Create topic (for desktop) */}
-          <div className="hidden lg:block mx-32 hover:cursor-pointer hover:text-slate-500">
+          <div className="hidden lg:block mx-32 hover:cursor-pointer hover:text-slate-500 ">
             <a href="#">
               <div className="flex w-24">
-                <FaPlusCircle className="text-2xl" />
+                <FaPlusCircle className="text-2xl " />
                 &nbsp;ตั้งกระทู้
               </div>
             </a>
