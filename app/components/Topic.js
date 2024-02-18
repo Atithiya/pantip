@@ -75,12 +75,45 @@ export function Topic() {
       plusCount: 0,
       image: "https://f.ptcdn.info/234/083/000/s8vspw1egia7j3sw0jBYs-o.jpg",
     },
-
-    // Add more topics here if needed
+    {
+      title: "ขนมเข่งถั่วเหลืองทอด เมนูควันหลงวันตรุษจีน",
+      member: "Nekkojung",
+      creationDate: "13 ก.พ. 2567",
+      commentsCount: 50,
+      plusCount: 2,
+      image: "https://f.ptcdn.info/223/083/000/s8ttg2ipe1wur7ZtB7GQ-o.jpg",
+    },
+    {
+      title:
+        "[CR] Beijing Winter Trip 2024 ปักกิ่ง ก็มีเทศกาลน้ำแข็งนะ Longqingxia Ice Lantern Festival",
+      member: "สมาชิกหมายเลข 6249955",
+      creationDate: "13 ก.พ. 2567",
+      commentsCount: 22,
+      plusCount: 0,
+      image: "https://f.ptcdn.info/209/083/000/s8qhmo1glv1CG50jYATjy-o.jpg",
+    },
+    {
+      title: "Orlando Magic จัดงานรีไทร์เบอร์เสื้อครั้งเเรก",
+      member: "Hana007",
+      creationDate: "13 ก.พ. 2567",
+      commentsCount: 42,
+      plusCount: 1,
+      image:
+        "https://fadeawayworld.net/.image/t_share/MjAwODg0MjI3NTQ4NDU2MTQw/378220994_1030826757949222_1313125244398475813_n.jpg",
+    },
+    {
+      title: "แผ่นใต้ฝาน้ำอัดลม",
+      member: "Red_Team22",
+      creationDate: "12 ก.พ. 2567",
+      commentsCount: 38,
+      plusCount: 4,
+      image: "https://f.ptcdn.info/207/083/000/s8q9992pzyPLLv8KkIsS-o.jpg",
+    },
   ];
 
   return (
     <div className="p-5 container bg-slate-100 text-lg lg:text-base">
+      {/* Realtime Topics */}
       <div className="mb-5">
         <h3 className="text-orange-500 font-semibold">Pantip Realtime</h3>
         <p className="text-slate-800">
@@ -113,9 +146,9 @@ export function Topic() {
                 <p>{topic.creationDate}</p>
                 {/* Comments Count and Plus Count */}
                 <div className="flex gap-2 items-center">
-                  <FaRegComment className="text-blue-500" />
+                  <FaRegComment className="text-indigo-950" />
                   <p>{topic.commentsCount}</p>
-                  <CiSquarePlus className="text-green-500" />
+                  <CiSquarePlus className="text-green-700" />
                   <p>{topic.plusCount}</p>
                 </div>
               </div>
@@ -123,8 +156,11 @@ export function Topic() {
           </div>
         ))}
       </div>
-      <div className="text-center ">
-        <p className="my-5 text-slate-800 font-bold">สำรวจกระทู้พันทิปต่อ</p>
+      {/* More Topic */}
+      <div className="text-center my-5 ">
+        <p className=" text-xl text-slate-800 font-bold mb-5">
+          สำรวจกระทู้พันทิปต่อ
+        </p>
         <button className="btn btn-outline btn-primary ">
           ดูทั้งหมด <FaExternalLinkAlt />
         </button>

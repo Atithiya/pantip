@@ -23,9 +23,9 @@ export function Footer() {
   ];
 
   return (
-    <footer className="bg-gray-200 text-slate-800 text-lg lg:text-base">
-      <div className="p-5 ">
-        <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-8">
+    <footer className="bg-gray-200 text-slate-800 text-lg lg:text-base container ">
+      <div className="p-5 py-5 ">
+        <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-8 lg:py-5">
           {/* Mapping over the footerLinks array and rendering each column */}
           {footerLinks.map((column, index) => (
             <div key={index}>
