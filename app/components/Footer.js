@@ -23,8 +23,8 @@ export function Footer() {
   ];
 
   return (
-    <footer className="bg-gray-200 text-slate-800 text-lg lg:text-base container ">
-      <div className="p-5 py-5 ">
+    <footer className="px-10 py-5 bg-stone-100 text-slate-800 text-lg lg:text-sm container ">
+      <div className="pb-5 ">
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-8 lg:py-5">
           {/* Mapping over the footerLinks array and rendering each column */}
           {footerLinks.map((column, index) => (
@@ -43,7 +43,7 @@ export function Footer() {
         </div>
       </div>
       {/* Copyright */}
-      <div className="p-5 border-t border-solid border-zinc-300 lg:flex lg:justify-between">
+      <div className="pt-5 border-t border-solid border-zinc-300 lg:flex lg:justify-between">
         <div>
           <p>© 2024 Internet Marketing co., ltd</p>
         </div>

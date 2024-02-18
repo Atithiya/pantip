@@ -10,6 +10,7 @@ import { IoMusicalNotes } from "react-icons/io5";
 import { FaRegSmile } from "react-icons/fa";
 import { IoMdPhonePortrait } from "react-icons/io";
 import { FaHome } from "react-icons/fa";
+import { MdFilterListAlt } from "react-icons/md";
 
 export function Hero() {
   const roomInfo = [
@@ -22,37 +23,242 @@ export function Hero() {
     { logo: <FaMicrophone />, roomName: "กรุงโซล" },
     { logo: <TbChristmasTree />, roomName: "ศาสนา" },
     { logo: <IoMusicalNotes />, roomName: "เฉลิมกรุง" },
-    { logo: <FaRegSmile />, roomName: "พันทิป" },
-    { logo: <IoMdPhonePortrait />, roomName: "มาบุญครอง" },
-    { logo: <FaHome />, roomName: "ชายคา" },
+    // { logo: <FaRegSmile />, roomName: "พันทิป" },
+    // { logo: <IoMdPhonePortrait />, roomName: "มาบุญครอง" },
+    // { logo: <FaHome />, roomName: "ชายคา" },
   ];
 
   return (
-    <div
-      className="p-5 mt-20 container z-10 bg-slate-100 text-lg lg:text-base"
-      id="hero"
-    >
-      <div className="border border-solid border-zinc-300 rounded-lg ">
-        <div className="text-white bg-indigo-950 ps-5 p-2 rounded-t-lg">
-          <p className="lg:text-xl">เลือกห้อง</p>
-        </div>
-        {/* box */}
-        <div className="p-5 rounded-b-lg grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-slate-800">
-          {/* Mapping over roomInfo and rendering each room */}
-          {roomInfo.map((room, index) => (
-            <div
-              key={index}
-              className="text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200"
-            >
-              {/* Icon */}
-              <div className="text-4xl mb-2">{room.logo}</div>
-              {/* Rooms' name */}
-              <div>
-                <p>{room.roomName}</p>
+    <div className="container w-full lg:flex bg-white text-gray-500 hidden lg:block">
+      <div style={{ width: "70%" }}>
+        <div className="carousel w-full ">
+          <div id="slide1" className="carousel-item relative w-full">
+            <div className="p-5 rounded-b-lg grid grid-cols-2 md:grid-cols-4 lg:grid-cols-9 gap-4  px-24">
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <FaRegHeart />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">สวนลุมพินี</p>
+                </div>
               </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <GrRestroomWomen />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">โต๊ะเครื่องแป้ง</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <IoChatbubblesOutline />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">สยามสแควร์</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <GiBlindfold />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">ดิโอลด์สยาม</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <LiaWindowMaximizeSolid />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">สินธร</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <PiTelevisionBold />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">บางขุนพรหม</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <FaMicrophone />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">กรุงโซล</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <TbChristmasTree />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">ศาสนา</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <IoMusicalNotes />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">เฉลิมกรุง</p>
+                </div>
+              </div>
+              {/* End of box */}
             </div>
-          ))}
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a
+                href="#slide4"
+                className="btn btn-circle bg-white text-slate-900 border border-gray-300 hover:bg-slate-300"
+              >
+                ❮
+              </a>
+              <a
+                href="#slide2"
+                className="btn btn-circle bg-white text-slate-900 border border-gray-300 hover:bg-slate-300"
+              >
+                ❯
+              </a>
+            </div>
+          </div>
+          <div id="slide2" className="carousel-item relative w-full">
+            <div className="p-5 rounded-b-lg grid grid-cols-2 md:grid-cols-4 lg:grid-cols-9 gap-4  px-24">
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <FaRegHeart />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">สวนลุมพินี</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <GrRestroomWomen />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">โต๊ะเครื่องแป้ง</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <IoChatbubblesOutline />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">สยามสแควร์</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <GiBlindfold />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">ดิโอลด์สยาม</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <LiaWindowMaximizeSolid />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">สินธร</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <PiTelevisionBold />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">บางขุนพรหม</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <FaMicrophone />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">กรุงโซล</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <TbChristmasTree />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">ศาสนา</p>
+                </div>
+              </div>
+              {/* End of box */}
+              {/* box */}
+              <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-2 hover:bg-gray-200">
+                <div className="lg:text-xl mb-2">
+                  <IoMusicalNotes />
+                </div>
+                <div>
+                  <p className="text-xs font-bold">เฉลิมกรุง</p>
+                </div>
+              </div>
+              {/* End of box */}
+            </div>
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a
+                href="#slide1"
+                className="btn btn-circle bg-white text-slate-900 border border-gray-300 hover:bg-slate-300"
+              >
+                ❮
+              </a>
+              <a
+                href="#slide3"
+                className="btn btn-circle bg-white text-slate-900 border border-gray-300 hover:bg-slate-300"
+              >
+                ❯
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
+      <div style={{ width: "30%" }} className="p-10 flex">
+        <button className="btn btn-outline me-5 text-slate-800 border-gray-300">
+          <MdFilterListAlt />
+          ตัวกรอง
+        </button>
+        <button className="btn btn-outline me-5 text-slate-800 border-gray-300">
+          My Feed
+          <div className="toggle"></div>
+        </button>
       </div>
     </div>
   );

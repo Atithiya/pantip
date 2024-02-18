@@ -112,7 +112,7 @@ export function Topic() {
   ];
 
   return (
-    <div className="p-5 container bg-slate-100 text-lg lg:text-base">
+    <div className="py-5 px-10 container bg-white text-lg lg:text-base">
       {/* Realtime Topics */}
       <div className="mb-5">
         <h3 className="text-orange-500 font-semibold lg:text-xl">
@@ -163,8 +163,8 @@ export function Topic() {
         <p className=" text-xl text-slate-800 font-bold mb-5">
           สำรวจกระทู้พันทิปต่อ
         </p>
-        <button className="btn btn-outline btn-primary ">
-          ดูทั้งหมด <FaExternalLinkAlt />
+        <button className="btn btn-neutral btn-primary text-white">
+          แสดงมากขึ้น <FaExternalLinkAlt />
         </button>
       </div>
     </div>
