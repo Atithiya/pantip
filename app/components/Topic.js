@@ -124,7 +124,7 @@ export function Topic() {
         ))}
       </div>
       <div className="text-center ">
-        <p className="mb-5 text-slate-800 font-bold">สำรวจกระทู้พันทิปต่อ</p>
+        <p className="my-5 text-slate-800 font-bold">สำรวจกระทู้พันทิปต่อ</p>
         <button className="btn btn-outline btn-primary ">
           ดูทั้งหมด <FaExternalLinkAlt />
         </button>

@@ -15,7 +15,7 @@ export function Navbar() {
             />
           </a>
         </div>
-        <div className="flex-none gap-2 lg:mx-72 w-full">
+        <div className="flex justify-between gap-2 lg:mx-72 w-full">
           <label className="input input-bordered flex items-center gap-2 bg-indigo-950 ">
             <input
               type="text"
@@ -44,6 +44,7 @@ export function Navbar() {
             </a>
           </div>
 
+          {/* Hamburger Icon*/}
           <div className="dropdown dropdown-end">
             <div
               tabIndex={0}
@@ -56,7 +57,7 @@ export function Navbar() {
             </div>
             <ul
               tabIndex={0}
-              className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+              className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content text-slate-800 bg-slate-200 rounded-box w-52"
             >
               <li>
                 <a className="justify-between">เข้าสู่ระบบ / สมัครสมาชิก</a>
