@@ -1,3 +1,28 @@
+# Pantip in Airbnb Style
+
+This project aims to recreate the Pantip website interface using the Airbnb design style. It is built using Next.js, Tailwind CSS, and DaisyUI by Tailwind CSS.
+
+## Features
+
+- Recreates the Pantip website interface in the style of Airbnb.
+- Developed with Next.js
+- Utilizes Tailwind CSS for rapid and responsive styling.
+- Includes DaisyUI by Tailwind CSS for additional UI components and utilities.
+
+## Design
+
+The design for this project was inspired by the Pantip website and adapted to the Airbnb design style. The design was created using Figma to ensure consistency and accuracy.
+
+## Responsiveness
+
+The project is fully responsive and optimized for both desktop and mobile devices. The layout adjusts dynamically to provide an optimal viewing experience across different screen sizes.
+
+## Developer
+
+This project was developed by Atithiya Inthorn.
+
+##
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,4 +59,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 # pantip
