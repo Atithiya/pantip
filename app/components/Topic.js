@@ -80,7 +80,7 @@ export function Topic() {
   ];
 
   return (
-    <div className="p-5 container bg-slate-100">
+    <div className="p-5 container bg-slate-100 text-lg lg:text-base">
       <div className="mb-5">
         <h3 className="text-orange-500 font-semibold">Pantip Realtime</h3>
         <p className="text-slate-800">

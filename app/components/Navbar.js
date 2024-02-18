@@ -15,11 +15,11 @@ export function Navbar() {
             />
           </a>
         </div>
-        <div className="flex-none gap-2 lg:mx-72">
+        <div className="flex-none gap-2 lg:mx-72 w-full">
           <label className="input input-bordered flex items-center gap-2 bg-indigo-950 ">
             <input
               type="text"
-              className="grow  w-44 lg:w-96  "
+              className="grow w-full lg:w-96  "
               placeholder="ค้นหาบน Pantip"
             />
             <svg
@@ -48,7 +48,7 @@ export function Navbar() {
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost btn-circle avatar"
+              className="btn btn-ghost btn-circle avatar text-2xl"
             >
               <div className="">
                 <GiHamburgerMenu />

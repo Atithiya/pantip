@@ -23,7 +23,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="bg-gray-200 text-slate-800">
+    <footer className="bg-gray-200 text-slate-800 text-lg lg:text-base">
       <div className="p-5 ">
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-8">
           {/* Mapping over the footerLinks array and rendering each column */}
@@ -33,7 +33,7 @@ export function Footer() {
               {column.map((link, i) => (
                 <p
                   key={i}
-                  className="hover:cursor-pointer hover:text-slate-500 lg:mt-2 lg:mb-2"
+                  className="hover:cursor-pointer hover:text-slate-500 mt-2 lg:mb-2"
                 >
                   {link}
                 </p>
@@ -48,16 +48,11 @@ export function Footer() {
           <p>© 2024 Internet Marketing co., ltd</p>
         </div>
         <div>
-          <div className="flex mt-5  lg:mt-0 justify-between lg:justify-self-auto">
+          <div className="flex mt-5 lg:mt-0 justify-between lg:justify-self-auto ">
             <p>ติดตาม</p>
             {/* Mapping over social icons and rendering each icon */}
             {socialIcons.map((item, index) => (
-              <a
-                href={item.link}
-                key={index}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={item.link} key={index} target="_blank" rel="">
                 <item.icon className="hover:cursor-pointer hover:text-slate-500 text-xl ms-5" />
               </a>
             ))}

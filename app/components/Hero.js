@@ -28,7 +28,10 @@ export function Hero() {
   ];
 
   return (
-    <div className="p-5 mt-20 container z-10 bg-slate-100 " id="hero">
+    <div
+      className="p-5 mt-20 container z-10 bg-slate-100 text-lg lg:text-base"
+      id="hero"
+    >
       <div className="border border-solid border-zinc-300 rounded-lg ">
         <div className="text-white bg-indigo-950 ps-5 p-2 rounded-t-lg">
           <p>เลือกห้อง</p>
