@@ -23,7 +23,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="px-10 py-5 bg-stone-100 text-slate-800 text-lg lg:text-sm container ">
+    <footer className="p-5 lg:px-10 bg-stone-100 text-slate-800 text-lg lg:text-sm container ">
       <div className="pb-5 ">
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-8 lg:py-5">
           {/* Mapping over the footerLinks array and rendering each column */}
@@ -48,7 +48,11 @@ export function Footer() {
           <p>© 2024 Internet Marketing co., ltd</p>
         </div>
         <div>
-          <div className="flex mt-5 lg:mt-0 justify-between lg:justify-self-auto ">
+          <div
+            className="flex mt-5 lg:mt-0 justify-between lg:justify-self-auto 
+          pt-5 border-t border-solid border-zinc-300 
+          lg:pt-0 lg:border-none  "
+          >
             <p>ติดตาม</p>
             {/* Mapping over social icons and rendering each icon */}
             {socialIcons.map((item, index) => (

@@ -1,6 +1,5 @@
 import { FaRegComment } from "react-icons/fa";
 import { CiSquarePlus } from "react-icons/ci";
-import { FaExternalLinkAlt } from "react-icons/fa";
 
 export function Topic() {
   // Array of topic information objects
@@ -112,7 +111,7 @@ export function Topic() {
   ];
 
   return (
-    <div className="py-5 px-10 container bg-white text-lg lg:text-base">
+    <div className="p-5 lg:px-10 container bg-white text-lg lg:text-base">
       {/* Realtime Topics */}
       <div className="mb-5">
         <h3 className="text-orange-500 font-semibold lg:text-xl">
@@ -163,8 +162,8 @@ export function Topic() {
         <p className=" text-xl text-slate-800 font-bold mb-5">
           สำรวจกระทู้พันทิปต่อ
         </p>
-        <button className="btn btn-neutral btn-primary text-white">
-          แสดงมากขึ้น <FaExternalLinkAlt />
+        <button className="btn btn-neutral text-white text-base bg-black">
+          แสดงมากขึ้น
         </button>
       </div>
     </div>

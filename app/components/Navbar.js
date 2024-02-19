@@ -5,7 +5,7 @@ const Logo = "https://ptcdn.info/mobile/logo-mobile-pantip-white.png";
 
 export function Navbar() {
   return (
-    <div className="px-10 navbar bg-white fixed top-0 w-full z-10 py-3 text-slate-900">
+    <div className="px-10 navbar bg-white fixed top-0 w-full z-10 py-3 text-slate-900 hidden lg:block">
       <div className="navbar-start">
         <div className="">
           {/* Desktop logo */}

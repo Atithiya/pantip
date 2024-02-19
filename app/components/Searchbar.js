@@ -2,7 +2,7 @@ import { IoSearchOutline } from "react-icons/io5";
 
 export function Searchbar() {
   return (
-    <div className="w-full bg-white container border-b border-solid border-zinc-200">
+    <div className="w-full bg-white container border-b border-solid border-zinc-200 hidden lg:block">
       <div className="px-5 pt-24 flex items-center lg:mx-44 text-slate-900 p-5 ">
         <input
           type="text"
