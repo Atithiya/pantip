@@ -127,7 +127,7 @@ export function Hero() {
             </div>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a
-                href="#slide4"
+                href="#slide1"
                 className="btn btn-circle bg-white text-slate-900 border border-gray-300 hover:bg-slate-300"
               >
                 ❮
@@ -241,7 +241,7 @@ export function Hero() {
                 ❮
               </a>
               <a
-                href="#slide3"
+                href="#slide2"
                 className="btn btn-circle bg-white text-slate-900 border border-gray-300 hover:bg-slate-300"
               >
                 ❯
@@ -250,8 +250,8 @@ export function Hero() {
           </div>
         </div>
       </div>
-      <div style={{ width: "30%" }} className="p-10 flex">
-        <button className="btn btn-outline me-5 text-slate-800 border-gray-300">
+      <div style={{ width: "30%" }} className="p-5 pt-10 flex">
+        <button className="btn btn-outline me-5 text-slate-900 border-gray-300">
           <MdFilterListAlt />
           ตัวกรอง
         </button>

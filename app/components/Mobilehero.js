@@ -29,11 +29,16 @@ export function Mobilehero() {
   ];
 
   return (
-    <div className="py-5 bg-white lg:hidden ">
+    <div
+      className="px-5 py-3 bg-white lg:hidden text-gray-500  border-solid border-zinc-300 shadow-md pt-24 container"
+      style={{
+        boxShadow: "inset 2px 5px -10px -5px rgba(0, 0, 0, 0.1)",
+      }}
+    >
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           {/* Topics */}
-          <div className="rounded-b-lg grid grid-cols-3 md:grid-cols-4 w-full mx-16">
+          <div className="rounded-b-lg grid grid-cols-4 md:grid-cols-4 w-full ">
             {/* box */}
             <div className="text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-1  hover:bg-gray-200 w-20 ">
               <div className="lg:text-xl mb-2 ">
@@ -47,89 +52,79 @@ export function Mobilehero() {
             {/* box */}
             <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-1  hover:bg-gray-200 w-20 ">
               <div className="lg:text-xl mb-2 ">
-                <FaRegHeart />
+                <GrRestroomWomen />
               </div>
               <div>
-                <p className="text-xs font-bold">สวนลุมพินี</p>
+                <p className="text-xs font-bold">โต๊ะเครื่องแป้ง</p>
               </div>
             </div>
             {/* End of box */}
             {/* box */}
             <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-1  hover:bg-gray-200 w-20 ">
               <div className="lg:text-xl mb-2 ">
-                <FaRegHeart />
+                <IoChatbubblesOutline />
               </div>
               <div>
-                <p className="text-xs font-bold">สวนลุมพินี</p>
+                <p className="text-xs font-bold">สยามสแควร์</p>
               </div>
             </div>
             {/* End of box */}
-          </div>
-          {/* Swipe */}
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a
-              href="#slide2"
-              className="btn btn-circle bg-white text-slate-900 border border-gray-300 hover:bg-slate-300"
-            >
-              ❮
-            </a>
-            <a
-              href="#slide2"
-              className="btn btn-circle bg-white text-slate-900 border border-gray-300 hover:bg-slate-300"
-            >
-              ❯
-            </a>
+            {/* box */}
+            <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-1  hover:bg-gray-200 w-20 ">
+              <div className="lg:text-xl mb-2 ">
+                <GiBlindfold />
+              </div>
+              <div>
+                <p className="text-xs font-bold">ดิโอลด์สยาม</p>
+              </div>
+            </div>
+            {/* End of box */}
           </div>
         </div>
         <div id="slide2" className="carousel-item relative w-full">
           {/* Topics */}
-          <div className="rounded-b-lg grid grid-cols-3 md:grid-cols-4 w-full mx-16">
+          <div className="rounded-b-lg grid grid-cols-4 md:grid-cols-4 w-full ">
             {/* box */}
             <div className="text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-1  hover:bg-gray-200 w-20 ">
               <div className="lg:text-xl mb-2 ">
-                <FaRegHeart />
+                <LiaWindowMaximizeSolid />
               </div>
               <div>
-                <p className="text-xs font-bold">สวนลุมพินี</p>
+                <p className="text-xs font-bold">สินธร</p>
               </div>
             </div>
             {/* End of box */}
             {/* box */}
             <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-1  hover:bg-gray-200 w-20 ">
               <div className="lg:text-xl mb-2 ">
-                <FaRegHeart />
+                <PiTelevisionBold />
               </div>
               <div>
-                <p className="text-xs font-bold">สวนลุมพินี</p>
+                <p className="text-xs font-bold">บางขุนพรหม</p>
               </div>
             </div>
             {/* End of box */}
             {/* box */}
             <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-1  hover:bg-gray-200 w-20 ">
               <div className="lg:text-xl mb-2 ">
-                <FaRegHeart />
+                <FaMicrophone />
               </div>
               <div>
-                <p className="text-xs font-bold">สวนลุมพินี</p>
+                <p className="text-xs font-bold">กรุงโซล</p>
               </div>
             </div>
             {/* End of box */}
+            {/* box */}
+            <div className=" text-center flex flex-col items-center rounded-lg hover:cursor-pointer p-1  hover:bg-gray-200 w-20 ">
+              <div className="lg:text-xl mb-2 ">
+                <TbChristmasTree />
+              </div>
+              <div>
+                <p className="text-xs font-bold">ศาสนา</p>
+              </div>
+            </div>
           </div>
-          {/* Swipe */}
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a
-              href="#slide1"
-              className="btn btn-circle bg-white text-slate-900 border border-gray-300 hover:bg-slate-300"
-            >
-              ❮
-            </a>
-            <a
-              href="#slide3"
-              className="btn btn-circle bg-white text-slate-900 border border-gray-300 hover:bg-slate-300"
-            >
-              ❯
-            </a>
-          </div>
+          {/* End of box */}
         </div>
       </div>
     </div>

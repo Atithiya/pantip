@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 export function Mobilenavbar() {
   return (
-    <div className="p-5 bg-white text-slate-900 w-full container block lg:hidden">
+    <div className="p-5 bg-white text-slate-900  container block lg:hidden fixed top-0 w-full z-10">
       {/* search , input and hamburger box */}
       <div className="flex items-center lg:mx-44 w-full">
         {/* Search bar */}

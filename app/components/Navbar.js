@@ -6,7 +6,7 @@ const Logo = "https://ptcdn.info/mobile/logo-mobile-pantip-white.png";
 export function Navbar() {
   return (
     <div className="hidden lg:block">
-      <div className="px-10 navbar bg-white fixed top-0 w-full z-10 py-3 text-slate-900 container ">
+      <div className="px-10 navbar bg-white fixed top-0 w-full z-10 py-3 text-gray-500 container ">
         <div className="navbar-start">
           <div className="">
             {/* Desktop logo */}
@@ -41,7 +41,7 @@ export function Navbar() {
               <div
                 tabIndex={0}
                 role="button"
-                className="btn btn-ghost btn-circle avatar text-2xl"
+                className="btn btn-ghost btn-circle avatar text-2xl text-slate-900"
               >
                 <div className="">
                   <GiHamburgerMenu />
@@ -52,7 +52,10 @@ export function Navbar() {
                 className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content text-slate-800 bg-slate-200 rounded-box w-52"
               >
                 <li>
-                  <a className="justify-between">เข้าสู่ระบบ / สมัครสมาชิก</a>
+                  <a className="justify-between">เข้าสู่ระบบ</a>
+                </li>
+                <li>
+                  <a>สมัครสมาชิก</a>
                 </li>
                 <li>
                   <a>ช่วยเหลือ</a>

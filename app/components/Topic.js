@@ -121,7 +121,7 @@ export function Topic() {
           กระทู้ที่มีคนเปิดอ่านมากในขณะนี้ อัปเดตทุกนาที
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 ">
         {/* Mapping over the topics array and rendering each topic */}
         {topics.map((topic, index) => (
           <div
@@ -159,7 +159,7 @@ export function Topic() {
       </div>
       {/* More Topic */}
       <div className="text-center my-5 ">
-        <p className=" text-xl text-slate-800 font-bold mb-5">
+        <p className=" text-xl text-slate-900 font-bold mb-5">
           สำรวจกระทู้พันทิปต่อ
         </p>
         <button className="btn btn-neutral text-white text-base bg-black">
