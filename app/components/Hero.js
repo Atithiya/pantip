@@ -251,11 +251,11 @@ export function Hero() {
         </div>
       </div>
       <div style={{ width: "30%" }} className="p-5 pt-10 flex">
-        <button className="btn btn-outline me-5 text-slate-900 border-gray-300">
+        <button className="btn btn-outline me-5 text-slate-900 border-gray-300 text-xs">
           <MdFilterListAlt />
           ตัวกรอง
         </button>
-        <button className="btn btn-outline me-5 text-slate-800 border-gray-300">
+        <button className="btn btn-outline me-5 text-slate-800 border-gray-300 text-xs">
           My Feed
           <div className="toggle"></div>
         </button>

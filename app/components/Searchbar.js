@@ -14,7 +14,7 @@ export function Searchbar() {
             background: "white",
             boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.1)",
           }}
-          className="text-center input input-bordered  placeholder:text-slate-900 "
+          className="text-center input input-bordered  placeholder:text-gray-500 "
         />
         <div
           className="btn btn-primary ms-2 "
