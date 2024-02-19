@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 export function Mobilenavbar() {
   return (
     <div className="p-5 bg-white text-slate-900  container block lg:hidden fixed top-0 w-full z-10">
-      {/* search , input and hamburger box */}
+      {/* Search , input and hamburger box */}
       <div className="flex items-center lg:mx-44 w-full">
         {/* Search bar */}
         <div
@@ -15,7 +15,7 @@ export function Mobilenavbar() {
             <IoSearchOutline />
           </div>
         </div>
-        {/* input */}
+        {/* Input */}
         <input
           type="text"
           placeholder="ค้นหาบน Pantip"
@@ -27,7 +27,7 @@ export function Mobilenavbar() {
           }}
           className="text-center input input-bordered placeholder:text-slate-900 mx-1 w-full"
         />
-        {/* hamburger logo */}
+        {/* Hamburger logo */}
         <div>
           <div className="navbar-end">
             <a className="">

@@ -7,9 +7,6 @@ import { PiTelevisionBold } from "react-icons/pi";
 import { FaMicrophone } from "react-icons/fa";
 import { TbChristmasTree } from "react-icons/tb";
 import { IoMusicalNotes } from "react-icons/io5";
-import { FaRegSmile } from "react-icons/fa";
-import { IoMdPhonePortrait } from "react-icons/io";
-import { FaHome } from "react-icons/fa";
 import { MdFilterListAlt } from "react-icons/md";
 
 export function Hero() {
