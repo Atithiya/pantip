@@ -23,9 +23,9 @@ export function Hero() {
     { logo: <FaMicrophone />, roomName: "กรุงโซล" },
     { logo: <TbChristmasTree />, roomName: "ศาสนา" },
     { logo: <IoMusicalNotes />, roomName: "เฉลิมกรุง" },
-    // { logo: <FaRegSmile />, roomName: "พันทิป" },
-    // { logo: <IoMdPhonePortrait />, roomName: "มาบุญครอง" },
-    // { logo: <FaHome />, roomName: "ชายคา" },
+    { logo: <FaRegSmile />, roomName: "พันทิป" },
+    { logo: <IoMdPhonePortrait />, roomName: "มาบุญครอง" },
+    { logo: <FaHome />, roomName: "ชายคา" },
   ];
 
   return (
