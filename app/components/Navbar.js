@@ -8,7 +8,7 @@ export function Navbar() {
     <div className="hidden lg:block">
       <div className="px-10 navbar bg-white fixed top-0 w-full z-10 py-3 text-gray-500 container ">
         <div className="navbar-start">
-          <div className="">
+          <div>
             {/* Desktop logo */}
             <a
               className="btn btn-primary text-xl hidden lg:block w-20"
